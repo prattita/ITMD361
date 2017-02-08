@@ -1,1 +1,3 @@
+ITMD 361
 
+This is the folder containing the files for project 1
