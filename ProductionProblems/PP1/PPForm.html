@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form</title>
+</head>
+<body>
+	<h2>Volunteer Form</h2>
+	
+	<form method="POST" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" enctype="multipart/form-data">
+		
+		<fieldset>
+		<legend>My info</legend>
+			<p>
+				<label>First Name: <input type="text" name="first_name_field" placeholder="First Name"></label>
+			</p>
+			<p>
+				<label>Last Name: <input type="text" name="last_name_field" placeholder="Last Name"></label>
+			</p>
+			<!-- 
+			<p>
+				<label>Password: <input type="password" name="text_field" placeholder="Password"></label>
+			</p>-->
+			<p>
+				<label>Phone Number: <input type="number" name="phone_field" placeholder="Phone Number"></label>
+			</p>
+			<p>
+				<label>Email: <input type="email" name="email_field" placeholder="Email"></label>
+			</p>
+			<p>
+				Gender:
+				<label>Male<input type="radio" name="gender_field" value="Male"></label>
+				<label>Female<input type="radio" name="gender_field" value="Female"></label>
+				<label>Other<input type="radio" name="gender_field" value="other"></label>
+			</p>
+			<p>
+				Age: 
+				<select name="age_field">
+					<option selected disabled>Select an Option</option>
+					<option value="1-18">Under 18</option>
+					<option value="18-24">18 - 24</option>
+					<option value="25-34">25 - 34</option>
+					<option value="35-44">35 - 44</option>
+					<option value="45-54">45 - 54</option>
+					<option value="55-64">55 - 64</option>
+					<option value="65-100">65 and over</option>
+				</select>	
+			</p>
+		</fieldset>
+		<fieldset>
+		<legend>My Availability</legend>
+			<label>Monday:	<input type="checkbox" name="available_field[]" value="Monday"></label><br>
+			<label>Tuesday:	<input type="checkbox" name="available_field[]" value="Tuesday"></label><br>
+			<label>Wednesday: <input type="checkbox" name="available_field[]" value="Wednesday"></label><br>
+			<label>Thursday: <input type="checkbox" name="available_field[]" value="Thursday"></label><br>
+			<label>Friday: <input type="checkbox" name="available_field[]" value="Friday"></label><br>
+			<label>Saturday: <input type="checkbox" name="available_field[]" value="Saturday"></label><br>
+			<label>Sunday: <input type="checkbox" name="available_field[]" value="Sunday"></label><br>
+		<p>
+			<label for="textarea_block">Comments?</label><br>
+			<textarea cols ="60" rows="10" name="comments_field" placeholder="Comment text" id="textarea_block"></textarea> <!--Textarea lets you have more than one line per option-->
+		</p>
+		</fieldset>
+		
+		<input type="hidden" name="hidden_field" value="Paolo Ratti Tamayo">
+		<input type="submit" value="Submit">
+		<!--<input type="reset" value="reset">-->
+	</form>
+</body>
+</html>
