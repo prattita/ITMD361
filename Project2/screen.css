@@ -1,0 +1,78 @@
+/*General elements*/
+head{
+	margin-left: 30px;
+}
+body{
+	font-family: "Times New Roman";
+	/*background-color: black*/
+}
+.headers{
+	font-size: 1.5em;
+	color: #FFA183;
+	margin: 40px 40px;
+	background-color: #D3542B
+}
+
+.title{
+	font-size: 2em;
+	/*color: #FFA183;*/
+	
+}
+
+.descr{
+	margin: 10px 25px;
+	font-size: 1.1em;
+	/*color: white;*/
+}
+.sections{
+	color: black;
+	font-size: 1.5em;
+	margin: 0 40px;
+	/*color: white;*/
+}
+
+.secTitle{
+	text-decoration: underline;
+	font-size: 1.3em;
+	margin: 30px 0;
+	/*color: #FFA183;*/
+}
+
+.footers{
+	font-size: 1.2em;
+	margin: 20px 40px;
+}
+
+.footLines{
+	margin: 0;
+}
+/*index.html elements*/
+
+/*resume.html elements*/
+#rName{
+	font-size: 1.7em;
+}
+
+#rLowerName{
+	font-size: 1.5em;
+}
+/*interests.html elements*/
+
+/*CompHS.html elements*/
+#HSvideo{
+	box: 0 100px;
+	margin: 0 25px;
+}
+
+#HStable, th, td{
+	width: 50%;
+	border: 3px solid orange;
+	border-collapse: collapse;
+	margin: 0 25px;
+}
+
+#guldan{
+	max-width:49.9%;
+	margin: 0 25px;
+}
+
