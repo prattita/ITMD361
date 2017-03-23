@@ -7,8 +7,19 @@
 	<link rel="stylesheet" href="normalize.css">
 </head>
 <body>
+
 	<header class="headers">	
-		<h2 class="title">Competitive Hearthstone</h2>
+		<nav class="nav_bar">
+			<ul>
+				<li><img class = "nav_pic" src="Pokemon_icon.png" alt="Pokemon">
+				<li><a href= "index.html">Index</a></li>
+				<li><a href= "resume.html">Resume</a></li>
+				<li><a href= "Interests.html">Interests</a></li>
+				<li><a class ="current" href= "CompHS.html">Competitive Hearthstone</a></li>
+			</ul>
+		</nav>
+		
+		<h2 class = "clear mTitle" >Competitive Hearthstone</h2>
 		<p class="descr">Hearthstone is a fast-paced strategy card game for everyone, developed by Blizzard.</p>
 		<p class="descr">Currently I am participating in a regional Hearthstone tournament sponsored by Compete Tespa, with two friends from university. </p>
 	</header>
@@ -23,58 +34,53 @@
 	
 		<h4 class="secTitle">Decks Lists</h4>
 		<img id="guldan" src="http://i.imgur.com/td2spSP.jpg" alt="HS image">
+		<p class="descr">These are the decks we are using, with their respective class and type of deck.</p>
 		<table id="HStable"> <!-- border=2 removed-->
-			<thead>
+			<thead id="thead_comp">
 				<tr>
-					<th>Class</th>
-					<th>Type</th>
-					<th>Hearthpwn Link</th>
+					<th class="th_HStable">Class</th>
+					<th class="th_HStable">Type</th>
+					<th class="th_HStable">Hearthpwn Link</th>
 				</tr>	
 			</thead>
 			
 			<tbody>
 				<tr>
-					<td>Mage</td>
-					<td>RenoDeck</td>
-					<td><a href="http://www.hearthpwn.com/deckbuilder/mage#28:1;44:1;49:1;74:1;177:1;274:1;276:1;280:1;428:1;467:1;489:1;522:1;525:1;595:1;14454:1;22358:1;22374:1;27214:1;27216:1;27228:1;27249:1;33124:1;33155:1;42025:1;42028:1;49621:1;49622:1;49637:1;49673:1;49689:1" title="MageDeck">Deck1</a></td>
+					<td class="td_HStable">Mage</td>
+					<td class="td_HStable">RenoDeck</td>
+					<td class="td_HStable"><a href="http://www.hearthpwn.com/deckbuilder/mage#28:1;44:1;49:1;74:1;177:1;274:1;276:1;280:1;428:1;467:1;489:1;522:1;525:1;595:1;14454:1;22358:1;22374:1;27214:1;27216:1;27228:1;27249:1;33124:1;33155:1;42025:1;42028:1;49621:1;49622:1;49637:1;49673:1;49689:1" title="MageDeck">Deck1</a></td>
 				</tr>
 
 				<tr>
-					<td>Warlock</td>
-					<td>RenoDeck</td>
-					<td><a href="http://www.hearthpwn.com/deckbuilder/warlock#33:1;43:1;74:1;122:1;170:1;264:1;360:1;368:1;372:1;398:1;450:1;467:1;557:1;573:1;647:1;673:1;674:1;14443:1;14454:1;14463:1;22374:1;27214:1;27228:1;27243:1;33133:1;49622:1;49626:1;49646:1;49673:1;49691:1" title="RenoLock">Deck2</a></td>
+					<td class="td_HStable">Warlock</td>
+					<td class="td_HStable">RenoDeck</td>
+					<td class="td_HStable"><a href="http://www.hearthpwn.com/deckbuilder/warlock#33:1;43:1;74:1;122:1;170:1;264:1;360:1;368:1;372:1;398:1;450:1;467:1;557:1;573:1;647:1;673:1;674:1;14443:1;14454:1;14463:1;22374:1;27214:1;27228:1;27243:1;33133:1;49622:1;49626:1;49646:1;49673:1;49691:1" title="RenoLock">Deck2</a></td>
 				</tr>
 				
 				<tr>
-					<td>Shaman</td>
-					<td>Control</td>
-					<td><a href="http://www.hearthpwn.com/deckbuilder/shaman#10:2;214:2;256:1;270:2;280:2;390:1;503:1;525:1;676:2;22265:2;27246:2;33159:2;35226:1;42042:2;42045:2;49706:1;49707:2;49724:2" title="Control">Deck3</a></td>
+					<td class="td_HStable">Shaman</td>
+					<td class="td_HStable">Control</td>
+					<td class="td_HStable"><a href="http://www.hearthpwn.com/deckbuilder/shaman#10:2;214:2;256:1;270:2;280:2;390:1;503:1;525:1;676:2;22265:2;27246:2;33159:2;35226:1;42042:2;42045:2;49706:1;49707:2;49724:2" title="Control">Deck3</a></td>
 				</tr>
 				
 				<tr>
-					<td>Priest</td>
-					<td>DragonPriest</td>
-					<td><a href="http://www.hearthpwn.com/deckbuilder/priest#280:2;315:2;431:2;547:2;600:2;671:1;14437:1;14447:2;14460:2;22351:2;22398:2;27214:1;27238:1;42029:1;42039:2;49620:2;49638:2;49648:1" title="DragonPriest">Deck4</a></td>
+					<td class="td_HStable">Priest</td>
+					<td class="td_HStable">DragonPriest</td>
+					<td class="td_HStable"><a href="http://www.hearthpwn.com/deckbuilder/priest#280:2;315:2;431:2;547:2;600:2;671:1;14437:1;14447:2;14460:2;22351:2;22398:2;27214:1;27238:1;42029:1;42039:2;49620:2;49638:2;49648:1" title="DragonPriest">Deck4</a></td>
 				</tr>
 
 			</tbody>
 		</table>
 	</section>
 	<footer class="footers">
-		<nav>
-			<p class="secTitle">Navigation</p>
-			<ul>
-				<li><a href= "index.html">Index</a></li>
-				<li><a href= "resume.html">Resume</a></li>
-				<li><a href= "Interests.html">Interests</a></li>
-				<li><a href= "CompHS.html">Competitive Hearthstone</a></li>
-			</ul>
-		</nav>
-		<p class="footLines">Created by Paolo Alejandro Ratti Tamayo</p>
-		<address>
-				<p class="footLines">Contact info: <a href="mailto:prattita@hawk.iit.edu">prattita@hawk.iit.edu</a></p>
-		</address>
-		<p class="footLines">(312)-887 0888</p>
+		<ul class="footLines">		
+			<li>
+				<address>
+						Contact info: <a href="mailto:prtamayo20@gmail.com">prtamayo20@gmail.com</a>
+				</address>
+			</li>
+			<li >(312) 887 0888</li>
+		</ul>
 	</footer>
 </body>
 </html>

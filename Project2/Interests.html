@@ -8,10 +8,63 @@
 </head>
 <body>
 	<header class="headers">
-		<h1 class="title">Hobbies and Interests</h1>
+		<nav class="nav_bar">
+			<ul>
+				<li><img class = "nav_pic" src="Pokemon_icon.png" alt="Pokemon">
+				<li><a href= "index.html">Index</a></li>
+				<li><a href= "resume.html">Resume</a></li>
+				<li><a class ="current" href= "Interests.html">Interests</a></li>
+				<li><a href= "CompHS.html">Competitive Hearthstone</a></li>
+			</ul>
+		</nav>
+		
+		<h2 class = "clear mTitle" >Hobbies and Interests</h2>
 	</header>
 	<section id ="reading" class="sections">
 		<h4 class="secTitle">Reading</h4>
+		<table id="darkTowerTable" class="booksTable"> 
+			<thead>
+				<tr>
+					<th class="tableTitle">"The Dark Tower" by Stephen King</th>
+					<th></th>
+				</tr>	
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src="http://i.imgur.com/Wx1LOfw.jpg" alt="DarkTower image"></td>
+					<td class="book_descr">The Dark Tower is a series of eight books written by American author Stephen King that incorporates themes from multiple genres, including dark fantasy, science fantasy, horror, and Western. It describes a "gunslinger" and his quest toward a tower, the nature of which is both physical and metaphorical.</td>
+				</tr>
+			</tbody>
+		</table>
+		<table id="theftSwordsTable" class="booksTable"> 
+			<thead>
+				<tr>
+					<th class="tableTitle">"Ryiria Revelations" by Michael J. Sullivan</th>
+					<th></th>
+				</tr>	
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src="http://i.imgur.com/b4yzBPC.jpg" alt="TheftOfSwords image"></td>
+					<td class="book_descr">Royce Melborn, a skilled thief, and his mercenary partner, Hadrian Blackwater, make a profitable living carrying out dangerous assignments for conspiring nobles-until they are hired to pilfer a famed sword. What appears to be just a simple job finds them framed for the murder of the king and trapped in a conspiracy that uncovers a plot far greater than the mere overthrow of a tiny kingdom.</td>
+				</tr>
+			</tbody>
+		</table>
+		<table id="harryPotterTable" class="booksTable"> 
+			<thead>
+				<tr>
+					<th class="tableTitle">"Harry Potter" by J.K. Rowling</th>
+					<th></th>
+				</tr>	
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src="http://i.imgur.com/D9oAZwF.jpg" alt="HarryPotter image"></td>
+					<td class="book_descr">Harry Potter is a series of fantasy novels written by British author J. K. Rowling. The novels chronicle the life of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry.</td>
+				</tr>
+			</tbody>
+		</table>
+		<!--
 		<ul>
 			<li>
 				<p>The Dark Tower" by Stephen King</p>
@@ -27,37 +80,32 @@
 			</li>
 			
 		</ul>
+		-->
 	</section>
 	<section id ="videogames" class="sections">
 		<h4 class="secTitle">Video Games</h4>
 		<ul>
 			<li>
 				<p>Hearthstone</p>
-				<a href="http://us.battle.net/hearthstone/en/" title="Hearthstone"><img src="http://i.imgur.com/b0zlEfF.png" alt="HS image"></a>
-				<p id="smallLink"><a href= "CompHS.html">Competitive Hearthstone</a></p>
+				<a class="img_link" href="http://us.battle.net/hearthstone/en/" title="Hearthstone"><img src="http://imgur.com/Q1mZpWC.png" alt="HS image"></a>
+				<p><a id="smallLink" href= "CompHS.html">Competitive Hearthstone</a></p>
 			</li>
 			<li>
 				<p>Maple Story</p>
-				<a href="http://maplestory.nexon.net/" title="Maple Story"><img src="http://i.imgur.com/H850Fjq.png" style="width:200px;height:200px;" alt="Maple image"></a>
+				<a class="img_link" href="http://maplestory.nexon.net/" title="Maple Story"><img src="http://i.imgur.com/H850Fjq.png" alt="Maple image"></a>
 			</li>
 		</ul>
 	</section>
 	
 	<footer class="footers">
-		<nav>
-			<p class="secTitle">Navigation</p>
-			<ul>
-				<li><a href= "index.html">Index</a></li>
-				<li><a href= "resume.html">Resume</a></li>
-				<li><a href= "Interests.html">Interests</a></li>
-				<li><a href= "CompHS.html">Competitive Hearthstone</a></li>
-			</ul>
-		</nav>
-		<p class="footLines">Created by Paolo Alejandro Ratti Tamayo</p>
-		<address>
-				<p class="footLines">Contact info: <a href="mailto:prattita@hawk.iit.edu">prattita@hawk.iit.edu</a></p>
-		</address>
-		<p class="footLines">(312)-887 0888</p>
+		<ul class="footLines">		
+			<li>
+				<address>
+						Contact info: <a href="mailto:prtamayo20@gmail.com">prtamayo20@gmail.com</a>
+				</address>
+			</li>
+			<li >(312) 887 0888</li>
+		</ul>
 	</footer>
 </body>
 </html>
