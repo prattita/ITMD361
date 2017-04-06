@@ -7,7 +7,6 @@ body{ /*fluid layout*/
 	margin-right:20%;
 	background-color: #202020; /*#202020;*/
 	color: rgba(255, 255, 255, 0.5);
-
 	font-family: "Times New Roman", Times, serif;
 	font-size: 18px;
 }
@@ -187,8 +186,26 @@ body{ /*fluid layout*/
 }
 
 /*Responsive Design*/
+/*Tablet*/
 @media only screen and (max-width: 800px){
 	body{
 		background-color:pink;
+		padding: 28px 5px;
+		margin-top: 47px;
+		margin-left:10%;
+		margin-right:10%;
+	}
+	/*nav_bar{
+		
+	}*/
+}
+/*Phone*/
+@media only screen and (max-width: 480px){
+	body{ 
+		background-color:blue;
+		padding: 28px 3px;
+		margin-top: 47px;
+		margin-left:0;
+		margin-right:0;
 	}
 }
