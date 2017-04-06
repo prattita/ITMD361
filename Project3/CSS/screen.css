@@ -1,5 +1,4 @@
 /*General Elements*/
-
 body{ /*fluid layout*/
 	/*?position: absolute; needed?*/
 	padding: 28px 10px;
@@ -19,7 +18,6 @@ body{ /*fluid layout*/
 	height:43px;
 	margin:0 10px;
 }
-
 .nav_bar ul{ /*ul*/
 	position: fixed;
 	left:0;
@@ -31,12 +29,10 @@ body{ /*fluid layout*/
 	background-color: #841b00;
 	padding: 0;
 }
-
 .nav_bar ul li{
 	float: left;
 	/*margin: 0 7.5px; separates the buttons*/
 }
-
 .nav_bar ul li a{
 	display:block;
 	background-color: #841b00;
@@ -46,21 +42,17 @@ body{ /*fluid layout*/
 	font-size: 15px;
 	text-decoration: none;
 	text-align: center;
-	padding: 15px 18px;
-	
+	padding: 15px 18px;	
 	/*border-radius: 4px; makes the button look like a circle*/ 
 }
-
 .nav_bar ul li a:hover{
 	background-color: #ff9d83;
 	color: #881b00;
 }
-
 .nav_bar ul li a.current{
 	background-color: #e77253;
 	color: #841b00;
 }
-
 .clear{
 	clear: both; 
 }
@@ -72,9 +64,9 @@ body{ /*fluid layout*/
 	text-align: center;
 	padding: 0 0 0 0;
 }
- /*Footer*/
 
- .footers .footLines{ /*ul*/
+/*Footer*/
+.footers .footLines{ /*ul*/
 	position: fixed;
 	bottom:0;
 	right:0;
@@ -92,19 +84,16 @@ body{ /*fluid layout*/
 .footers .footLines li a{
 	color: #ff9d83;
 }
-
 .footers .footLines li a:hover{
 	background-color: #ff9d83;
 	color: #881b00;
 }
-
 .secTitle{ /*section titles*/
 	/*text-decoration: underline;*/
 	margin: 20px 0;
 	font-size: 22px;
 	color: #ff9d83;
 }
-
 .descr{
 	padding: 0 0 0 20px;
 }
@@ -117,6 +106,7 @@ body{ /*fluid layout*/
 	height: auto;
 	border-radius: 48px;
 }
+
 /*resume.html elements*/
 #rName{
 	margin-bottom: 0;
@@ -127,50 +117,40 @@ body{ /*fluid layout*/
 	padding: 0 0 0 0;
 	margin-top: 10px;
 }
-
 #education .major_compl{
 	margin: 0;
 	padding:2px 0 2px 20px;
 }
 
 /*interests.html elements*/
-
 #reading .booksTable{
 	border: 0;
 }
-
 #reading .tableTitle{
 	padding: 14px 0 6px 20px;
 }
-
 #reading .book_descr{
 	padding:10px;
 }
-
 #reading img{
 	padding: 0 0 0 20px;
 	margin: auto;
 	width: 244.5px;
 	height: auto;
 }
-
 #videogames ul img{
 	width: 200px;
 	height: 200px;
 }
-
 #videogames .img_link{
 	padding: 191px 0 0 0;	
 }
-
 #videogames .img_link:hover{
 	background-color: #ff9d83;
 }
-
 #videogames #smallLink{
 	color: #ff9d83;
 }
-
 #videogames #smallLink:hover{
 	background-color: #ff9d83;
 	color: #881b00;
@@ -182,31 +162,33 @@ body{ /*fluid layout*/
 	border: 0;
 	display: block;
 }
-
 #HStable, .th_HStable, .td_HStable{
 	width: 50%;
 	border: 3px solid #841b00;
 	border-collapse: collapse;
 	margin:auto;
 }
-
 #HStable #thead_comp{
 	font-size:20px;
 	color: #ff9d83;
 }
-
 #HStable a{
 	color: #ff9d83;
 }
-
 #HStable a:hover{
 	background-color: #ff9d83;
 	color: #881b00;
 }
-
 #guldan{
 	max-width:49.9%;
 	margin:auto;
 	padding: 10px 0;
 	display: block;
+}
+
+/*Responsive Design*/
+@media only screen and (max-width: 800px){
+	body{
+		background-color:pink;
+	}
 }
