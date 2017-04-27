@@ -6,7 +6,7 @@ function initMap() {
 		zoom: 10
 		
     });
-	var customIcon = './Pictures/Peruicon.png';
+	var customIcon = './Pictures/peruicon.png';
 	var marker = new google.maps.Marker({
 		position: myPos,
 		map: map,
