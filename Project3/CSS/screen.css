@@ -209,3 +209,16 @@ body{ /*fluid layout*/
 		margin-right:0;
 	}
 }
+
+/*Google Maps*/
+#map {
+    height: 40%;
+	width: 50%;
+	margin: auto;
+	border-style: solid;
+	border-width: 16px 25px;
+	border-color: #e77253;
+}
+html, body {
+	height: 100%;
+}
